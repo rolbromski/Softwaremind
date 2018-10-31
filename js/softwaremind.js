@@ -72,6 +72,10 @@ $(window).ready(function() {
         $('.topSlider .slick-next').click();
     });
     
+    $('.cookies .button a').click(function(e) {
+        $('.cookies').fadeOut();
+    });
+    
 });
 
 $(window).on('load', function() {
