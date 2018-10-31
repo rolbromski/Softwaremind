@@ -457,8 +457,6 @@ a {
                 .topSlideMiddle {
                     display: table-cell;
                     vertical-align: middle;
-                    
-                    
                 }
             }
         }
@@ -481,7 +479,7 @@ a {
             width: 100%;
             background-image: url(../images/top/1.png);
             z-index: 1;
-            background-position: left center;
+            background-position: 30% center;
             .backgroundCover();
             opacity: 0.9;
         }
@@ -847,6 +845,11 @@ a {
             vertical-align: top;
             font-size: 17px;
             position: relative;
+            z-index: 5;
+            
+            &:hover {
+                z-index: 50;
+            }
             
             .itemContainer {
                 margin: 5px;

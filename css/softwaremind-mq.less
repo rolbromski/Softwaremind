@@ -23,7 +23,7 @@
     
     .items {
         position: relative;
-        margin: 0 40px;
+        margin: 0 25px;
     }
 }
 .header {
@@ -84,7 +84,67 @@
         }
     }
 }
+.padding {
+    padding: 80px 0;
+}
+.paddingTop {
+    padding: 80px 0 0 0;
+}
+.toolbox {
+    
+    .items {
+        margin: 0 -5px;
+    }
+}
+.headline {
+    padding: 0 0 40px 0;
+    
+    h3 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 42px;
+    }
+}
+.technologies {
+    
+    .items {
+        height: 260px;
         
+        .item {
+            width: 33.33%;
+            height: 115px;
+            
+            .itemContainer {
+                padding: 20px 30px;
+            }
+        }
+    }
+    .itemTable {
+        
+        .columnLeft {
+            width: 70px;
+            
+            img {
+                width: 80%;
+                max-width: 35px;
+            }
+        }
+        .columnRight {
+            font-size: 18px;
+        }
+    }
+}
+.advantages {
+    
+    .advantagesSlider {
+        padding-left: 30px;
+        
+        .advantagesSlide {
+            padding: 60px 0 180px;
+        }
+    }
+}
 }
 @media screen and (max-width: 1599px) {
 
@@ -95,17 +155,19 @@
 }
 .top {
     min-height: 600px;
+    padding-bottom: 100px;
     
     .line {
-        height: 15%;
+        height: 20%;
         left: 60px;
+        top: 53%;
     }
     .scrollDown {
         left: 43px;
-        bottom: 280px;
+        bottom: 80px;
     }
     .arrows {
-        bottom: 290px;
+        bottom: 90px;
         right: 40px;
     }
     .topSlider {
@@ -136,6 +198,73 @@
 .closeMobile {
     top: 30px;
     right: 30px;
+}
+body, html {
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+}
+.padding {
+    padding: 60px 0;
+}
+.paddingTop {
+    padding: 60px 0 0 0;
+}
+.aboutUs {
+    top: -100px;
+    margin-bottom: -100px;
+    
+    .itemFullTable { 
+        
+        .columnLeft {
+            
+            .content {
+                padding: 60px;
+            }
+            .title {
+                padding: 0 0 25px 0;
+                
+                h4 {
+                    font-size: 32px;
+                }
+            }
+        }
+        .columnRight {
+            width: 25%;
+        }
+    }
+    .items {
+        
+        .item {
+            
+            .itemContainer {
+                
+                .content {
+                    padding: 50px;
+                }
+                .title {
+                    font-size: 20px;
+                }
+                .icon {
+                    
+                    img {
+                        width: 55px;
+                    }
+                }
+            }
+        }
+        .itemServices {
+            font-size: 16px;
+            
+            .itemContainer {
+                
+                .content {
+                    padding: 60px 50px;
+                }
+            }
+        }
+    }
 }
 }
 @media screen and (max-width: 1366px) {
@@ -240,10 +369,10 @@
     }
     .scrollDown {
         left: 33px;
-        bottom: 270px;
+        bottom: 70px;
     }
     .arrows {
-        bottom: 270px;
+        bottom: 70px;
         right: 30px;
     }
     .topSlider {
@@ -275,12 +404,27 @@
         }
     }
 }
+.padding {
+    padding: 40px 0;
+}
+.paddingTop {
+    padding: 40px 0 0 0;
+}
 }
 @media screen and (max-width: 899px) {
 
 }
 @media screen and (max-width: 799px) {
-
+.top {
+    
+    .background {
+        
+        .shape1 {
+            background-image: url(../images/top/1.png);
+            background-position: 50% center;
+        }
+    }
+}
 .hamburger {
     -ms-transform: translate(0, 0); 
     -webkit-transform: translate(0, 0); 
@@ -377,12 +521,31 @@
         }
     }
 }
+.headline {
+    padding: 0 0 40px 0;
+    
+    h3 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+}
 }
 @media screen and (max-width: 767px) {  
 
 }
 @media screen and (max-width: 572px) {
-
+.headline {
+    padding: 0 0 40px 0;
+    
+    h3 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
 }
 @media screen and (max-width: 459px) { 
 
