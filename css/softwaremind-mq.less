@@ -1,1265 +1,390 @@
 @charset "utf-8";
-@import "ferpay.less";
+@import "softwaremind.less";
 
 @media screen and (max-width: 1919px) {
 
 }
-@media screen and (max-width: 1599px) {
-
+@media screen and (max-width: 1680px) {
+.hamburger {
+    top: 40px;
+    right: 40px;
 }
-@media screen and (max-width: 1439px) {
+.closeMobile {
+    top: 40px;
+    right: 40px;
+}
 .wrapperContainer {
-    padding: 0 90px;
-}
-.wrapperPadding {
     padding: 0 30px;
 }
-body, html {
-    font-size: 14px;
+.wrapperPadding {
+    padding: 0 60px;
+}
+.technologies {
+    
+    .items {
+        position: relative;
+        margin: 0 40px;
+    }
 }
 .header {
-    padding: 30px 0;
+    padding-top: 40px;
     
-    &.scrolled {
-        padding: 15px 0;
-        
-        .logo {
-            padding-right: 20px;
-
-            img {
-                width: 95px;
-            }
-        }
-        .language {
-            padding-left: 20px;
-
-            .langDropdown {
-
-                .dropdown {
-
-                    .dropdownButton {
-                        height: 48px;
-                    }
-                }
-            }
-        }
-        .hamburger {
-            margin-left: 20px;
-        }
-        .menu {
-            padding-left: 20px;
-            
-            ul {
-
-                li {
-                    padding-right: 15px;
-                }
-            }
-        }
-    }
     .logo {
-        padding-right: 30px;
+        margin-right: 60px;
         
         img {
-            width: 135px;
+            width: 230px;
         }
     }
-    .language {
-        padding-left: 30px;
+    ul {
         
-        .langDropdown {
-            width: 70px;
-            
-            .dropdown {
-                
-                .dropdownButton {
-                    height: 53px;
-                    padding-top: 15px;
-                }
-                span.value {
-                    width: 30px;
-                    padding-left: 5px;
-                    font-size: 15px;
-                }
-            }
-        }
-    }
-    .hamburger {
-        margin-left: 60px;
-        
-        .hamburgerDropdown {
-            
-            .hamburgerDropdownContainer {
-                padding: 25px 30px 35px 30px;
-                
-                
-            }
-        }
-        .title {
-            font-size: 16px;
-        }
-        .columns {
-            
-            .column {
-                
-                & > ul {
-                    
-                    & > li {
-                        padding-right: 40px;
-                        
-                        a {
-                            padding: 2px 0;
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .menu {
-        padding-left: 30px;
-        
-        ul {
-            
-            li {
-                padding-right: 30px;
-            }
-        }
-    }
-    .language {
-        
-        .langDropdown {
-            
-            .dropdown {
-                
-                span.value {
-                    font-size: 14px;
-                }
-            }
-        }
-    }
-}
-.dropdown {
-    position: relative;
-    
-    .dropdownButton {
-        
-        height: 53px;
-        
-        span.value {
-            width: 35px;
-            padding-left: 5px;
-            font-size: 14px;
-        }
-    }
-    .dropdownList {
-        
-        ul {
-            
-            li {
-                
-                a {
-                    padding: 8px 12px;
-                    font-size: 14px;
-                }
-            }
-        }
-    }
-}
-.button {
-    padding: 30px 0 0 0;
-    
-    a {
-        padding: 12px 45px 11px 25px;
-        height: 46px;
-        font-size: 15px;
-        
-        span {
-            
-            &.arrow-right-pink {
-                right: 22px;
-                top: 20px;
-            }
-        }
-        &:hover {
-            
-            span {
-                
-                &.arrow-right-pink {
-                    right: 17px;
-                }
-            }
-        }
-    }
-    &.prev,
-    &.next {
-        
-        a {
-            height: 44px;
-            width: 44px;
-        }
-    }
-    &.prev {
-        
-        a {
-            
-            span {
-                left: 16px;
-                top: 20px;
-            }
-            &:hover {
-                
-                span {
-                    left: 11px;
-                }
-            }
-        }
-    }
-    &.next {
-        
-        a {
-            
-            span {
-                right: 16px;
-                top: 20px;
-            }
-            &:hover {
-                
-                span {
-                    right: 11px;
-                }
-            }
-        }
-    }
-    &.login {
-        
-        a {
-            padding: 12px 20px 11px 10px;
-        }
-    }
-    &.register {
-        
-        a {
-            padding: 12px 20px 11px 10px;
-        }
-    }
-}
-.homeTop {
-    padding: 140px 0 0 0;
-    
-    .currencyRow {
-        
-        .currencyDropdown {
-            width: 120px;
-        }
-        .inputContainer {
-            
-            input {
-                height: 53px;
-                font-size: 22px;
-            }
-        }
-    }
-    .exchangeTopContainer {
-        padding: 30px 35px;
-    }
-    .send {
-        padding: 25px 0 0 0;
-        
-        a {
-            font-size: 16px;
-        }
-    }
-    .title {
-        font-size: 15px;
-        padding-bottom: 15px;
-    }
-    .exchangeBottom {
-        height: 100px;
-        
-        .exchangeBottomContainer {
-            
-            .column {
-                height: 100px;
-                
-                .icon {
-                    
-                    img {
-                        height: 70px;
-                    }
-                }
-                .desc {
-                    
-                    .value {
-                        font-size: 20px;
-                    }
-                }
-            }
-        }
-    }
-}
-.services {
-    top: -100px;
-    padding-top: 100px;
-    margin-bottom: -100px;
-    
-    .showMore {
-        padding: 15px 0 0 0;
-    }
-    .items {
-        margin: 0 -5px;
-        
-        .item {
-            min-height: 0;
-            
-            .itemContainer {
-                padding: 30px;
-                min-height: 280px;
-                margin: 5px;
-            }
-        }
-    }
-    .columns {
-        
-        .columnLeft {
-            width: 80px;
-        }
-        .icon {
-            width: 80px;
-            height: 80px;
-        }
-        .title {
+        li {
             
             a {
                 font-size: 18px;
             }
         }
     }
-    .optionsSlider {
+}
+.top {
+    
+    .line {
+        height: 20%;
+        left: 70px;
+    }
+    .scrollDown {
+        left: 53px;
+        bottom: 280px;
+    }
+    .arrows {
+        bottom: 300px;
+        right: 50px;
+    }
+    .topSlider {
         
-        .optionContainer {
+        .slick-dots {
+            right: 50px;
+        }
+        .slick-slide {
             
-            .title {
-                font-size: 14px;
+            .button {
+                padding: 60px 0 0 0;
+            }
+            h1 {
+                font-size: 40px;
+                margin-top: 80px;
+            }
+            h2 {
+                font-size: 60px;
+                padding: 5px 0;
+            }
+            .desc {
+                font-size: 20px;
             }
         }
     }
 }
-.headline {
-    padding: 0 0 30px 0;
-    
-    h2 {
-        font-size: 2.2vw;
         
-        &.big {
-            font-size: 3.2vw;
-        }
-    }
-    h3 {
-        font-size: 1.5vw;
-        padding: 10px 0 0 0;
-    }
 }
-.changeButton {
-    top: 72px;
-}
-.padding {
-    padding: 60px 0;
-}
-.paddingTop {
-    padding: 60px 0 0 0;
-}
-.tabs {
-    padding: 10px 0 0 0;
-    
-    .tabsContainer {
-        padding: 5px;
-        
-        a {
-            padding: 13px 22px;
-            font-size: 15px;
-        }
-    }
-}
-.pricesTable {
-    position: relative;
-    padding: 40px 0 40px 0;
-    
-    .item {
-        padding: 0 110px;
-        
-        &.featured {
-            padding: 0 80px;
-            margin-bottom: 15px;
-            
-            .itemContainer {
-                border: none;
-                padding: 35px 0;
-                 
-                .columnLeft {
-                    width: 180px;
-                }
-                .columnRight {
-                    width: 200px;
-                }
-            }
-            .logo {
-                
-                img {
-                    max-width: 140px;
-                }
-            }
-            .price {
-                font-size: 26px;
-            }
-            .stripe {
+@media screen and (max-width: 1599px) {
 
-                .stripeContainer {
-                    height: 5px;
-                }
-            }
-        }
-        .itemContainer {
-            padding: 18px 0;
-            
-            .columnLeft {
-                width: 140px;
-            }
-            .columnRight {
-                width: 160px;
-            }
-        }
-        .logo {
-                
-            img {
-                max-height: 70px;
-                width: auto;
-            }
-        }
-        .price {
-            font-size: 18px;
-        }
+}
+@media screen and (max-width: 1439px) {
+.wrapperPadding {
+    padding: 0 40px;
+}
+.top {
+    min-height: 600px;
+    
+    .line {
+        height: 15%;
+        left: 60px;
     }
-    .stripe {
-        padding: 6px;
+    .scrollDown {
+        left: 43px;
+        bottom: 280px;
+    }
+    .arrows {
+        bottom: 290px;
+        right: 40px;
+    }
+    .topSlider {
         
-        .stripeContainer {
-            height: 4px;
+        .slick-dots {
+            right: 40px;
+        }
+        .slick-slide {
             
-            .current {
-                
-                .label {
-                    top: -16px;
-                    font-size: 13px;
-                    padding: 7px 12px;
-                }
+            h1 {
+                font-size: 32px;
+                margin-top: 60px;
+            }
+            h2 {
+                font-size: 52px;
+                padding: 5px 0;
+            }
+            .desc {
+                font-size: 18px;
             }
         }
     }
 }
-.testimonials {
-    
-    .item {
-        padding: 0 60px 40px 60px;
-        
-        .avatar {
-            
-            div {
-                width: 90px;
-                height: 90px;
-                margin-left: -45px;
-            }
-        }
-    }
-    .testimonialsSliderContainer {
-        
-        .desc {
-            padding: 60px 0 20px 0;
-        }
-        .name {
-            font-size: 20px;
-        }
-    }
-    .slick-dots {
-        bottom: -50px;
-    }
+.hamburger {
+    top: 30px;
+    right: 30px;
 }
-.app {
-    
-    .mockup {
-        
-        img {
-            width: 75%;
-        }
-    }
-}
-.footer {
-    
-    .top {
-        padding-bottom: 35px;
-        
-        .topContainer {
-            
-            .columnLeft {
-                padding-bottom: 25px;
-            }
-            .columnRight {
-                padding-bottom: 25px;
-            }
-        }
-    }
-    .logos {
-        
-        ul {
-            
-            li {
-                
-                img {
-                    max-height: 35px;
-                }
-            }
-        }
-    }
-    .middle {
-        padding: 30px 0;
-        
-        .middleContainer {
-            
-            .columnRight {
-                width: 330px;
-            }
-        }
-        .columns2 {
-            
-            .column2Right {
-                padding-top: 20px;
-            }
-        }
-        .phone {
-            font-size: 26px;
-        }
-        .desc {
-            padding: 30px 0 0 0;
-        }
-    }
-    h3 {
-        padding-bottom: 10px;
-    }
-    .bottom {
-        padding: 35px 0 0 0;
-    }
-}
-.parallax {
-    
-    img {
-        width: 66%;
-    }
+.closeMobile {
+    top: 30px;
+    right: 30px;
 }
 }
 @media screen and (max-width: 1366px) {
 
 }
 @media screen and (max-width: 1279px) {
-.header {
-    
-    .hamburger {
-        margin-left: 30px;
-    }
-    .menu {
-        padding-left: 25px;
-        
-        ul {
-            
-            li {
-                padding-right: 25px;
-            }
-        }
-    }
-}
+
 }
 @media screen and (max-width: 1199px) {
-.wrapperContainer {
-    padding: 0 30px;
-}
-.header {
+.cookies {
+    padding: 20px 0;
     
-    .menu {
-        display: none;
+    .button {
+        margin: 10px 0 0 0;
+        display: block;
+        text-align: center;
     }
-    .hamburger {
+    .text {
+        display: block;
+        text-align: center;
+    }
+}
+.button {
+    
+    &.backgroundButton {
         
-        .hideDesktop {
-            display: block;
+        a {
+            padding: 13px 30px 12px 25px;
+            font-size: 12px;
+            
+            &:hover {
+                padding: 13px 20px 12px 25px;
+            }
         }
-    }
-}
-.app {
-    
-    .mockup {
-        
-        img {
-            bottom: -270px;
-        }
-    }
-}
-.headline {
-    
-    h2 {
-        font-size: 28px;
-        
-        &.big {
-            font-size: 32px;
-        }
-    }
-    h3 {
-        font-size: 18px;
-    }
-}
-.footer {
-    
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 16px;
     }
 }
 }
 @media screen and (max-width: 1023px) {
-.wrapperContainer {
-    padding: 0 20px;
+
+.hamburger {
+    top: 20px;
+    right: 20px;
+}
+.closeMobile {
+    top: 20px;
+    right: 20px;
 }
 .wrapperPadding {
-    padding: 0 20px;
+    padding: 0 30px;
 }
 .header {
-    padding: 20px 0;
+    padding-top: 25px;
     
-    /*
-    .hamburger {
-        position: absolute;
-        right: 20px;
-        top: 10px;
+    .logo {
+        margin-right: 45px;
         
-        & > a {
-            font-size: 20px;
-        }
-        .hamburgerDropdown {
-            left: auto;
-            right: -20px;
-            
-            .hamburgerDropdownContainer {
-                
-                &:before {
-                    left: auto;
-                    right: 20px;
-                }
-            }
-        }
-        .buttons {
-            display: block;
+        img {
+            width: 200px;
         }
     }
-    */
-    
-    .hamburger {
-        position: static;
+    ul {
         
-        .columns {
-            display: block;
-            width: auto;
+        li {
             
-            .column {
-                display: inline-block;
-                padding-bottom: 20px;
-                width: 260px;
-                
-                &:last-of-type {
-                    padding: 0;
+            a {
+                font-size: 17px;
+            }
+        }
+    }
+    .headerTable {
+        display: table;
+        width: 100%;
+        
+        .columnLeft {
+            
+            ul {
+
+                li {
+                    margin-right: 28px;
                 }
             }
         }
-        .hamburgerDropdown {
-            left: 20px;
+        .columnRight {
+            
+            .menu {
+                padding-left: 8px;
+            }
+            ul {
+
+                li {
+                    margin-left: 28px;
+                }
+            }
+        }
+    }
+}
+.top {
+    min-height: 480px;
+    
+    .line {
+        display: none;
+    }
+    .scrollDown {
+        left: 33px;
+        bottom: 270px;
+    }
+    .arrows {
+        bottom: 270px;
+        right: 30px;
+    }
+    .topSlider {
+        
+        .slick-dots {
             right: 20px;
-            top: 50px;
+            margin-top: -80px;
             
-            .hamburgerDropdownContainer {
-                margin-top: 40px;
-                
-                &:before {
-                    display: none;
-                }
+            li {
+                margin: 25px 0;
             }
         }
-    }
-}
-.footer {
-    
-    h2 {
-        text-align: center;
-    }
-    .top {
-        
-        .topContainer {
-            display: block;
-            width: auto;
+        .slick-slide {
             
-            .columnLeft {
-                display: block;
-                width: auto;
+            h1 {
+                font-size: 28px;
+                margin-top: 60px;
             }
-            .columnRight {
-                display: block;
-                width: auto;
-                text-align: center;
+            h2 {
+                font-size: 48px;
+                padding: 5px 0;
             }
-        }
-        .desc {
-            text-align: center;
-        }
-    }
-    .middle {
-        
-        .middleContainer {
-            display: block;
-            width: auto;
-            
-            .columnLeft {
-                display: block;
-                width: auto;
+            .desc {
+                font-size: 17px;
             }
-            .columnRight {
-                display: block;
-                width: auto;
-                text-align: center;
-                
-                .columnContainer {
-                    padding: 20px 0 0 0;
-                    
-                    .icon {
-                        display: none;
-                    }
-                }
+            .button {
+                padding: 40px 0 0 0;
             }
         }
-        .desc {
-            text-align: center;
-            padding: 10px 0 0 0;
-        }
-    }
-    .bottom {
-        
-        .bottomContainer {
-            display: block;
-            width: auto;
-            
-            .columnLeft {
-                display: block;
-                width: auto;
-                text-align: center;
-            }
-            .columnRight {
-                display: block;
-                width: auto;
-                text-align: center;
-            }
-        }
-        .copyright {
-            display: block;
-            width: auto;
-            text-align: center;
-        }
-        .social {
-            display: block;
-            width: auto;
-            padding: 15px 0;
-            text-align: center;
-        }
-    }
-}
-.homeTop {
-    padding: 120px 0 0 0;
-}
-.testimonials {
-    
-    .testimonialsSlider {
-        
-        .button.prev {
-            display: none;
-        }
-        .button.next {
-            display: none;
-        }
-    }
-    .item {
-        padding: 0 30px 30px 30px;
     }
 }
 }
 @media screen and (max-width: 899px) {
-.homeTop {
-    padding: 120px 0 0;
 
-    .columns {
-        width: auto;
-        display: block;
+}
+@media screen and (max-width: 799px) {
+
+.hamburger {
+    -ms-transform: translate(0, 0); 
+    -webkit-transform: translate(0, 0); 
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible;
+    
+    a {
+        width: 40px;
+        height: 40px;
         
-        .columnLeft {
-            width: auto;
-            display: block;
-            max-width: 560px;
-            margin: 0 auto;
-            
-            .columnContainer {
-                padding: 0;
-            }
-        }
-        .columnRight {
-            width: auto;
-            display: block;
-            padding: 20px 0 0 0;
-            max-width: 560px;
-            margin: 0 auto;
-            
-            .columnContainer {
-                padding: 0;
-            }
+        svg {
+             width: 30px;
+             margin-top: 5px;
         }
     }
-    .exchangeTopContainer {
-        padding: 20px 25px;
-    }
-    .title {
-        text-align: center;
-    }
-    .exchangeBottom {
-        height: auto;
+}
+.closeMobile {
+    
+    a {
+        width: 40px;
+        height: 40px;
         
-        .exchangeBottomContainer {
-            display: block;
-            width: auto;
-            
-            .column {
-                height: auto;
-                display: block;
-                width: auto;
-                text-align: center;
-                margin: 0 auto;
-                border: none;
-                padding: 15px 0;
-                border-top: solid 1px rgba(0,0,0,0.05) !important;
-                
-                .icon {
-                    display: block;
-                    
-                    img {
-                        height: 60px;
-                    }
-                }
-                .desc {
-                    display: block;
-                    text-align: center;
-                }
-            }
+        svg {
+             width: 30px;
+             margin-top: 5px;
         }
     }
-    .selectPayment {
+}
+.header {
+
+    .menu {
+        display: none;
+    }
+}
+.top {
+    
+    .arrows {
+        display: none;
+    }
+    .scrollDown {
+        display: none;
+    }
+    .topSlider {
         
-        .buttonPayment {
-            -webkit-box-shadow: 0px 20px 50px 0px rgba(21,31,70,0.2);
-            -moz-box-shadow: 0px 20px 50px 0px rgba(21,31,70,0.2);
-            box-shadow: 0px 20px 50px 0px rgba(21,31,70,0.2);
+        .slick-slide {
             
-            &:hover {
-                -webkit-box-shadow: 0px 20px 50px 0px rgba(21,31,70,0);
-                -moz-box-shadow: 0px 20px 50px 0px rgba(21,31,70,0);
-                box-shadow: 0px 20px 50px 0px rgba(21,31,70,0);
+            h1 {
+                font-size: 24px;
+                margin-top: 0px;
+            }
+            h2 {
+                font-size: 32px;
+                padding: 5px 0;
+            }
+            .desc {
+                font-size: 15px;
+            }
+            .button {
+                padding: 40px 0 0 0;
             }
         }
-        .paymentDropdown {
-            left: auto;
+        .slick-dots {
+            top: auto;
+            bottom: 40px;
             right: 0;
-            -webkit-border-radius: 4px;
-            -webkit-border-top-right-radius: 0;
-            -moz-border-radius: 4px;
-            -moz-border-radius-rightleft: 0;
-            border-radius: 4px;
-            border-top-right-radius: 0;
-        }
-    }
-}
-.changeButton {
-    display: none;
-}
-.services {
-    top: -435px;
-    padding-top: 435px;
-    margin-bottom: -435px;
-    
-    .items {
-        
-        .item {
+            left: 0;
+            text-align: center;
             width: 100%;
+            margin-top: 0;
             
-            .itemContainer {
-                min-height: 0;
+            li {
+                display: inline-block;
+                margin: 0 10px;
+                width: 7px;
+                height: 7px;
             }
         }
     }
-    .parallax3 {
-        z-index: 0;
-    }
 }
-.app {
+.mobileMenu {
     
-    .mockup {
-        text-align: center;
+    .mobileMenuMiddle {
         
-        img {
-            display: inline-block;
-            left: auto;
-            width: 360px;
-            position: relative;
-        }
-    }
-    ul {
-        width: 560px;
-        margin: 0 auto;
-        
-        li {
-            text-align: left;
-        }
-    }
-    .columnContainer {
-        padding: 0 0 400px 0;
-    }
-    .columns {
-        display: block;
-        width: auto;
-        
-        .columnLeft {
-            display: block;
-            width: auto;
-            margin: auto;
-            text-align: center;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-        }
-        .columnRight {
-            display: block;
-            width: auto;
-            padding: 20px 0 0 0;
-            text-align: center;
+        ul {
+            
+            li {
+                
+                a {
+                    font-size: 24px;
+                    padding: 10px 0;
+                }
+            }
         }
     }
 }
 }
 @media screen and (max-width: 767px) {  
-.footer {
 
-    .middle {
-
-        .columns {
-            display: block;
-            width: auto;
-            
-            .column {
-                display: block;
-                width: auto;
-                padding-bottom: 25px;
-                text-align: center;
-                
-                ul {
-                    
-                    li {
-                        padding: 3px 0;
-                    }
-                }
-            }
-        }
-        .columns2 {
-            display: block;
-            width: auto;
-            
-            .column2Left {
-                display: block;
-                width: auto;
-                padding-bottom: 25px;
-                text-align: center;
-            }
-            .column2Right {
-                display: block;
-                width: auto;
-                padding-top: 0;
-                padding-bottom: 0;
-                text-align: center;
-            }
-        }
-    }
-}
-.header {
-    
-    .hamburger {
-        
-        .columns {
-            display: block;
-            width: auto;
-            
-            .column {
-                display: block;
-                width: auto;
-                padding: 0 0 20px 0 !important;
-            }
-        }
-        .hamburgerDropdown {
-            
-            .hamburgerDropdownContainer {
-                max-height: 400px;
-                overflow-y: scroll;
-                
-                .language2 {
-                    display: block;
-                }
-            }
-        }
-        
-    }
-}
-.pricesTable {
-    
-    .item {
-        padding: 0 30px;
-        
-        .itemContainer {
-            padding: 18px 0;
-            
-            .columnLeft {
-                width: 110px;
-            }
-            .columnRight {
-                width: 140px;
-            }
-        }
-        .logo {
-            
-            img {
-                max-height: 30px;
-            }
-        }
-        .price {
-            font-size: 15px;
-        }
-        .info {
-            right: -30px;
-            top: 25%;
-        }
-        &.featured {
-            padding: 0 30px;
-            margin-bottom: 10px;
-            
-            .itemContainer {
-                padding: 20px 0;
-                
-                .columnLeft {
-                    width: 110px;
-                    
-                    .logo {
-                        width: 90px;
-                    }
-                }
-                .columnRight {
-                    width: 140px;
-                }
-            }
-            .price {
-                font-size: 18px;
-            }
-        }
-    }
-}
-.app {
-    
-    ul {
-        width: auto;
-    }
-}
-.header {
-    
-    .logo {
-        padding: 0;
-        border: none;
-        
-        img {
-            width: 110px;
-        }
-    }
-    .hamburger {
-        position: absolute;
-        right: 30px;
-        top: 27px;
-        
-        & > a {
-            font-size: 20px;
-        }
-        
-        .hamburgerDropdown {
-            left: auto;
-            right: 0;
-            top: 30px;
-            max-width: 275px;
-            
-            .hamburgerDropdownContainer {
-                max-height: 360px;
-                margin-top: 10px;
-            }
-        }
-        .buttons {
-            display: block;
-        }
-    }
-    &.scrolled {
-        
-        .logo {
-            padding: 0;
-        }
-        .hamburger {
-            position: absolute;
-            right: 30px;
-            top: 27px;
-        }
-    }
-    .headerContainer {
-        
-        .columnRight {
-            display: none;
-        }
-    }
-}
-.fixedBottom {
-    display: block;
-}
-.footer {
-    padding-bottom: 130px;
-}
 }
 @media screen and (max-width: 572px) {
-.pricesTable {
-
-    .item {
-        
-        .info {
-            position: relative;
-            display: inline-block;
-            left: auto;
-            top: auto;
-            right: auto;
-            padding-left: 5px;
-        }
-        .price {
-            display: inline-block;
-        }
-        .itemContainer {
-            display: block;
-            width: auto;
-
-            .columnLeft {
-                display: block;
-                width: auto;
-                text-align: center;
-                padding: 0 0 15px 0;
-
-                .logo {
-                    width: auto;
-                }
-            }
-            .columnCenter {
-                display: block;
-                width: auto;
-            }
-            .columnRight {
-                display: block;
-                width: auto;
-                text-align: center;
-                padding: 15px 0 0 0;
-            }
-        }
-        
-        &.featured {
-            
-            .itemContainer {
-                display: block;
-                width: auto;
-                
-                .columnLeft {
-                    display: block;
-                    width: auto;
-                    text-align: center;
-                    padding: 0 0 15px 0;
-                    
-                    .logo {
-                        width: auto;
-                    }
-                }
-                .columnCenter {
-                    display: block;
-                    width: auto;
-                }
-                .columnRight {
-                    display: block;
-                    width: auto;
-                    text-align: center;
-                    padding: 15px 0 0 0;
-                }
-            }
-        }
-    }
-}
 
 }
 @media screen and (max-width: 459px) { 
-.services {
-
-    .columns {
-        display: block;
-        width: auto;
-        
-        .icon {
-            width: 70px;
-            height: 70px;
-            margin: 0 auto;
-        }
-        
-        .columnLeft {
-            display: block;
-            width: auto;
-            margin: auto;
-            text-align: center;
-        }
-        .columnRight {
-            display: block;
-            width: auto;
-            padding: 20px 0 0 0;
-            text-align: center;
-        }
-    }
-}
-
-.homeTop {
-    
-    .currencyRow {
-        
-        .inputContainer {
-            
-            input {
-                font-size: 18px;
-                padding: 0 18px;
-            }
-        }
-    }
-}
 
 }
 @media screen and (max-width: 379px) {
