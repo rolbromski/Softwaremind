@@ -122,6 +122,13 @@ $(window).ready(function() {
         hideMobileMenu();
     });
     
+    //
+    
+    $(".termCkeckbox a").click(function(e) {
+        $(".termHidden").slideDown();
+        $(".termCkeckbox a").fadeOut();
+    });
+    
 });
 
 $(window).on('load', function() {
