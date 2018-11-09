@@ -74,6 +74,7 @@ $(window).ready(function() {
     
     $('.cookies .button a').click(function(e) {
         $('.cookies').fadeOut();
+        return false;
     });
     
     $('.scrollDown a').click(function(e) {
@@ -127,6 +128,11 @@ $(window).ready(function() {
     $(".termCkeckbox a").click(function(e) {
         $(".termHidden").slideDown();
         $(".termCkeckbox a").fadeOut();
+    });
+    
+    $(".termCkeckbox .showLess").click(function(e) {
+        $(".termHidden").slideUp();
+        $(".termCkeckbox a").fadeIn();
     });
     
 });
